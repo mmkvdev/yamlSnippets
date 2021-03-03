@@ -1,0 +1,7 @@
+--- # collections and lists /^learning
+concept: > 
+      Lists and Collection members are lines that begin at the same indentation level, starting with a dash followed by a space.
+example: &premium-bikes
+      - Triumph: Tiger
+      - BMW: R1250GS
+      - Royal Enfield: Himalyan 650cc
