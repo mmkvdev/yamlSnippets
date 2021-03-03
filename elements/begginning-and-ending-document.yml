@@ -1,0 +1,5 @@
+--- #beginning & endingdocument/^learning
+concept: Defining the start and end of the document is optional.
+notation: > 
+      To start a document insert `---` at the top of the document.
+      To end a document insert `...` at the end of the document.
