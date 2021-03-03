@@ -1,0 +1,14 @@
+--- #dictionaries /^learning
+concept: Dictionaries comprise a key:value format with the contents indented.
+example: &front-end
+      ReactJS: Advanced
+      NextJS: Advanced
+      JS: Advanced
+note: we can merge and mix up collections of lists and dictionaries like shown below
+examples: 
+        - &back-end
+              NodeJS: Beginner
+              ExpressJS: Beginner
+              DataBases:
+                      - MySQL: Intermediate
+                      - MongoDB: Intermediate
