@@ -1,0 +1,9 @@
+--- #deep-nested-collections /^learning
+concept: you can also have deep nested collections
+example: &software-engineer
+     name: MMK
+     age: 22
+     experience:
+          - Senior Software engineer : 1 year
+          - Software Engineer : 1 year
+          - Data Scientist Intern : 2 months
