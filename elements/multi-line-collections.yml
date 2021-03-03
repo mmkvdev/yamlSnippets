@@ -1,0 +1,7 @@
+--- #multi-line-collections /^learning
+concept: Complex Keys can be catered for by placing a question mark followed by a pipe symbol to flag the start of a complex `{key:}`
+? | 
+    starting a complex key 
+    with many
+    lines
+: here comes the value
