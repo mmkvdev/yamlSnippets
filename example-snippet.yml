@@ -1,0 +1,28 @@
+--- # example/^invoice
+invoice: 34843                         |  Scalars
+date: 2021-03-02                       | 
+bill-to: &id001
+    given : Madhu                      | Collections
+    family: MMK                        |
+    address: 
+        lines:  |
+            221-B                      |  
+            Baker Street               | 
+        city: London                   | Multi Line Collections 
+        state: United Kingdom          |
+        postal: W11                    | 
+ship-to: *id001
+product: 
+    - item-code: W11221B               |
+      quantity: 1                      | 
+      description: Novel               |
+      price: 174.00                    | Lists and Dictionaries
+    - item-code: W12221B               |
+      quantity: 20                     |
+      description: Gloves              |
+      price: 199.00                    |
+tax: 12.23
+total: 385.23
+comments: > 
+    Early Morning is better.           | Multi Line Formatting
+    Mobile Number is: +9781212913      |
