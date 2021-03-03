@@ -1,0 +1,10 @@
+--- #spaces|indenting/^learning
+concept: >
+      In YAML, you indent with spaces not tabs.
+      In addition there MUST be spaces between element parts.
+example:
+    Correct Notation: 
+          Key: Value
+    False Notation:
+          Key:Value
+              ^^ no space after the colon!
