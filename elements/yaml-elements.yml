@@ -1,0 +1,22 @@
+--- #yaml-elements/^learning
+reference: example-snippet.yml
+notes:  >  
+    As referenced from the above yaml file, A YAML file is constructed of a number of different elements.
+    Together they can be used to describe a wide variety of structures.
+    Like cross language classes, api data structures and deployment instructions for virtual machines and containers.
+structure: > 
+      YAML elements are mostly based on Key-Value pairs.
+      We may see them as strict KV as described in the example below.
+examples: 
+    example:
+        notation: 
+            - Name: Value
+              example: or a key with a complex/compound value
+                     Name: < the key<br />
+                        AnotherName: someValue < the value 
+property: >  
+          YAML is a superset of JSON
+          we can utilize JSON style sequences and maps in our constructs
+example: 
+    - a_json_style_map: {"K": "V"}
+    - a_json_style_sequence: ["pink", "red", "red", "cat", 123, 234, 345]
