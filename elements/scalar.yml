@@ -1,0 +1,11 @@
+--- # scalar/^learning
+concept: 
+    - Simple KV pairs come in this category, here are some examples, which are quite varied and flexible.
+    - examples:
+          - key: value
+          - someNumber: 299
+          - quotedText: "some text description"
+          - moreQuotedText: "strings need not to be quoted"
+          - boolean: true
+          - we can also have spaces in `${keys:}` and also in values
+          - nullKeyValue: null
