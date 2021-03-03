@@ -1,0 +1,7 @@
+--- #introduction-to-yaml/^learning
+definition: YAML is a data-orientated human readable serialization language.
+usage: Used in many projects including OpenAPI, Docker, Kubernetes and Ansible Playbook.
+full-form: > 
+      YAML was originally an acronym for 'Yet Another Markup Language', 
+      but is now more commonly referred to as 'YAML Ain't Markup Language' ,
+      (a bit like GNU is not unix!, or Bing! is not google!).
