@@ -1,0 +1,7 @@
+--- #comments/^learning
+concept: >
+      Comments are defined by placing a hash in front of an item `#`.
+      Comments can be made at the start of a line of anywhere in the line.
+example:
+    - # this is a comment<br />
+    - this is # a comment<br />
